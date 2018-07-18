@@ -4,7 +4,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace limion\jqueryfileupload;
+namespace kevin021788\jqueryfileupload;
 
 use yii\web\AssetBundle;
 
@@ -19,7 +19,7 @@ class jQueryFileUploadPlusUIAsset extends AssetBundle
         "js/jquery.fileupload-ui.js"
     ];
     public $depends = [
-        'limion\jqueryfileupload\JavascriptTemplatesAsset',
-        'limion\jqueryfileupload\JQueryFileUploadPlusAsset'
+        'kevin021788\jqueryfileupload\JavascriptTemplatesAsset',
+        'kevin021788\jqueryfileupload\JQueryFileUploadPlusAsset'
     ];
 }

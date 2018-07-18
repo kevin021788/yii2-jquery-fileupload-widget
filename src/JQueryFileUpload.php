@@ -4,7 +4,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace limion\jqueryfileupload;
+namespace kevin021788\jqueryfileupload;
 
 use Yii;
 use yii\base\InvalidConfigException;

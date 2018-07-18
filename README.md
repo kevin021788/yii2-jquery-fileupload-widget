@@ -12,14 +12,14 @@ Inspired by https://github.com/2amigos/yii2-file-upload-widget
 From command line
 
 ```bash
-$ composer require limion/yii2-jquery-fileupload-widget:~1.0
+$ composer require kevin021788/yii2-jquery-fileupload-widget:~1.0
 ```
 
 or add to your composer.json
 
 ```
 "require": {
-	"limion/yii2-jquery-fileupload-widget": "~1.0"
+	"kevin021788/yii2-jquery-fileupload-widget": "~1.0"
 }	
 ```
 
@@ -30,7 +30,7 @@ See: https://blueimp.github.io/jQuery-File-Upload/index.html
 Please note, in case of using a "UI" version you need to embed the widget to an existing form.
 ```PHP
 <?php
-use limion\jqueryfileupload\JQueryFileUpload;
+use kevin021788\jqueryfileupload\JQueryFileUpload;
 
 <?php $form = ActiveForm::begin(); ?>
 <?= JQueryFileUpload::widget([
@@ -57,7 +57,7 @@ You can use your own templates to customize the look and feel of upload,download
 
 ```PHP
 <?php
-use limion\jqueryfileupload\JQueryFileUpload;
+use kevin021788\jqueryfileupload\JQueryFileUpload;
 
 <?php $form = ActiveForm::begin(); ?>
 <?= JQueryFileUpload::widget([
@@ -82,7 +82,7 @@ See: https://blueimp.github.io/jQuery-File-Upload/basic-plus.html
 
 ```PHP
 <?php
-use limion\jqueryfileupload\JQueryFileUpload;
+use kevin021788\jqueryfileupload\JQueryFileUpload;
 
 $js = <<< 'JS'
 var uploadButton = $('<button/>')
@@ -195,9 +195,9 @@ See: https://blueimp.github.io/jQuery-File-Upload/basic.html
 
 ```PHP
 <?php
-use limion\jqueryfileupload\JQueryFileUpload;
+use kevin021788\jqueryfileupload\JQueryFileUpload;
 
-<?= limion\jqueryfileupload\JQueryFileUpload::widget([
+<?= kevin021788\jqueryfileupload\JQueryFileUpload::widget([
         'url' => ['upload', 'someparam' => 'somevalue'], // your route for saving images,
         'appearance'=>'basic', // available values: 'ui','plus' or 'basic'
         'name' => 'files[]',

@@ -4,7 +4,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace limion\jqueryfileupload;
+namespace kevin021788\jqueryfileupload;
 
 use yii\web\AssetBundle;
 
@@ -26,8 +26,8 @@ class jQueryFileUploadPlusAsset extends AssetBundle
         "js/jquery.fileupload-validate.js"
     ];
     public $depends = [
-        'limion\jqueryfileupload\JQueryFileUploadAsset',
-        'limion\jqueryfileupload\LoadImageAsset',
-        'limion\jqueryfileupload\Canvas2BlobAsset'
+        'kevin021788\jqueryfileupload\JQueryFileUploadAsset',
+        'kevin021788\jqueryfileupload\LoadImageAsset',
+        'kevin021788\jqueryfileupload\Canvas2BlobAsset'
     ];
 }
