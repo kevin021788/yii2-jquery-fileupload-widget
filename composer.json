@@ -10,12 +10,6 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "homepage": "https://github.com/kevin021788/yii2-jquery-fileupload-widget",
-    "authors": [
-        {
-            "name": "Vladyslav Holovko",
-            "email": "vlad.holovko@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "kevin021788\\jqueryfileupload\\": "src"
