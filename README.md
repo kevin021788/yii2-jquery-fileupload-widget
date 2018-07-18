@@ -31,7 +31,7 @@ Please note, in case of using a "UI" version you need to embed the widget to an 
 ```PHP
 <?php
 use kevin021788\jqueryfileupload\JQueryFileUpload;
-
+?>
 <?php $form = ActiveForm::begin(); ?>
 <?= JQueryFileUpload::widget([
         'model' => $model,
@@ -58,7 +58,7 @@ You can use your own templates to customize the look and feel of upload,download
 ```PHP
 <?php
 use kevin021788\jqueryfileupload\JQueryFileUpload;
-
+?>
 <?php $form = ActiveForm::begin(); ?>
 <?= JQueryFileUpload::widget([
         'model' => $model,
@@ -196,7 +196,7 @@ See: https://blueimp.github.io/jQuery-File-Upload/basic.html
 ```PHP
 <?php
 use kevin021788\jqueryfileupload\JQueryFileUpload;
-
+?>
 <?= kevin021788\jqueryfileupload\JQueryFileUpload::widget([
         'url' => ['upload', 'someparam' => 'somevalue'], // your route for saving images,
         'appearance'=>'basic', // available values: 'ui','plus' or 'basic'
